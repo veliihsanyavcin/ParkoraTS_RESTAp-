@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!--/login scren start/-->
+        <div class="login-screen" id="login-screen">
+            <!--/login form start/-->
+            <div class="login-form">
+                <div id="logo">
+                    <a href="">
+                        <img src="https://i.ibb.co/YZTSRyS/parkora-1.png" alt="parkora-1" border="0" style="height: 300px; width: 300px;">
+                    </a>
+                </div>
+                <div class="carinfo">
+                    <div class="control-group">
+                        <input type="text" class="login-field" value="" placeholder="Kullanıcı Adı" id="username">
+                    </div>
+                    <div class="control-group">
+                        <input type="password" class="login-field" value="" placeholder="Şifre" id="password">
+                    </div>
+                    <div>
+                        <a id="loginbutton" class="btn btn-primary btn-large btn-block">Giriş</a>
+                    </div>
+                </div>
+            </div>
+            <!--/login form end/-->
+        </div>
+        <!--/login scren end/-->
+
+        <!--/main screen start/-->
+        <div id="car-screen">
+            <div class="car-form">
+          <form class=" form-inline" id="car-list">
+                <div>
+                    <input type="text" id="plate" placeholder="Plaka" name="plate" required>
+                    <div id="selectlist">
+                        <!--	<label class="typelabel" for="VehicleType"></label> -->
+                    </div>
+                    <div>
+                        <button id="parkInButton" type="submit">Araç Giriş</button>
+                    </div>
+
+                </div>
+                </form>
+            </div>
+            <div class="cartable">
+                <table id="carlist">
+                    <tr>
+                        <th>Plaka</th>
+                        <th>Araç Tipi</th>
+                        <th>Giriş Saati</th>
+                        <th>Durum</th>
+                    </tr>
+                    <tbody id="ttbody">
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <!--/main screen end/-->
+
+        <!-- report screen start-->
+        <div class="report-screen">
+            <div id="carreport1">
+                <table id="carlist1">
+                    <tr>
+                        <th>Plaka</th>
+                        <th>Araç Tipi</th>
+                        <th>Giriş Saati</th>
+                        <th>Çıkış Saati</th>
+                        <th>Süre</th>
+                        <th>Ücret</th>
+                    </tr>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="carreport2">
+                <table id="carlist2">
+                    <tr>
+                        <th>Araç Tipi</th>
+                        <th>Toplam Adet</th>
+                        <th>Toplam Süre</th>
+                        <th>Toplam Ücret</th>
+                    </tr>
+                    <tbody>
+                    </tbody>
+                </table>
+                <table id="carlist3">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- report screen end-->
+    </div>
+    <script type="text/javascript"  src="ts/index.ts"></script>
+</body>
+
+</html>

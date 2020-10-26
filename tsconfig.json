@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "js",                        /* Redirect output structure to the directory. */
+    "rootDir": "ts",      
+    "target": "esnext",  
+  }
+}

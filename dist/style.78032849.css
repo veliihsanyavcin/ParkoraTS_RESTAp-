@@ -1,0 +1,242 @@
+
+* {
+    box-sizing: border-box;
+}
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+*:focus {
+    outline: none;
+}
+
+.login-screen {
+    width: auto;
+    height: 1000px;
+    background-color:#ffffff;;
+    padding: 20px;
+    border-radius: 10px  
+}
+
+.app-title {
+    text-align: center;
+    color: #777;
+}
+
+.login-form {
+    text-align: center;
+}
+.car-form {
+    text-align: center;
+   margin: auto;
+  width: auto;
+  padding: initial;
+  margin-left: 100px;
+  float: left;
+  justify-content: center;
+  margin-top: 30px;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+#car-screen {
+   background-color:rgb(225, 226, 202) ;
+    width: auto;
+    height: 1000px;
+    padding: 20px;
+    border-radius: 10px ,; 
+    display:flex;
+
+}
+
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid rgb(6, 34, 128);;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: rgb(6, 34, 128);
+    color: #ffffff;
+    padding: 10px 0;
+    border-radius: 3px;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+
+* {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+ 
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid #062280;
+   min-inline-size:-webkit-fill-available;
+}
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+  min-width: -webkit-fill-available;
+  margin-top: 30px;
+  font-size: larger;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+table {
+  border-collapse: collapse;
+ 
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f27e;}
+
+#aracgirisbutton{
+  margin-top :30px;
+  display: flex;
+
+  flex-flow: column-reverse;
+}
+
+#selectlist{
+   
+   margin-top :30px;
+   display: block;
+   justify-content: center;
+   width: 20rem;
+  
+
+}
+.car-form{
+  
+ padding-right: 5rem;
+
+}
+
+.cartable{
+ 
+  flex-grow: 1;
+      
+}
+#vehicleTypeParentSelect{
+
+    width: 75%;
+    height: 2rem;
+    min-inline-size:-webkit-fill-available;
+    font-size: large;
+}
+
+.report-screen {
+    background-color: rgb(162 222 191);
+    width: auto;
+    height: 1000px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+#logo{
+  display: flex;
+  justify-content: center;
+
+  
+}
+.carinfo{
+ display: inline-block;
+ justify-content: center;
+  margin-top: -30px;
+}
+
+#carlist{
+  width: 80%;
+}
+
+#carlist2{
+  width: 50%;
+}
+#carreport1{
+display: flex;
+justify-content: center;
+margin-left: 50px;
+margin-right: auto;
+float: left;
+margin-top: 20px;
+}
+
+#carreport2{
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+
+display: flex;
+justify-content: center;
+}
+#ttbody{
+  border-bottom: 2px solid #062280;
+}
+
+/*# sourceMappingURL=/style.78032849.css.map */
